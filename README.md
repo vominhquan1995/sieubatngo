@@ -47,6 +47,6 @@ Xem hướng dẫn chi tiết trong [`DEPLOY.md`](DEPLOY.md).
 
 ## Tùy chỉnh nhanh
 
-- **Email liên hệ**: đang dùng `hello@sieubatngo.com` trong `index.html` (tìm `mailto:`), đổi thành email thật của bạn.
+- **Email liên hệ**: đang dùng `contact@sieubatngo.com` trong `index.html` (tìm `mailto:`), đổi thành email thật của bạn.
 - **Nội dung**: mỗi câu có 2 phiên bản, `data-lang-vi` (tiếng Việt) và `data-lang-en` (tiếng Anh) — sửa cùng lúc cả hai.
 - **Màu thương hiệu**: đổi các biến `--brand`, `--brand-2`, `--brand-3` ở đầu `assets/css/styles.css`.

@@ -106,7 +106,7 @@ deployment:
    - Trang hiển thị đúng, có ảnh/logo.
    - Nút **EN/VI** chuyển ngôn ngữ.
    - Nút sáng/tối hoạt động.
-   - Nút **Đăng ký dùng sớm** mở ứng dụng email tới `hello@sieubatngo.com`.
+   - Nút **Đăng ký dùng sớm** mở ứng dụng email tới `contact@sieubatngo.com`.
    - Mở trên điện thoại để chắc chắn responsive.
 3. Nếu thấy trang cũ: xóa cache trình duyệt, hoặc trong cPanel kiểm tra có plugin cache (LiteSpeed Cache) thì **Flush**.
 
