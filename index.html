@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Siêu Bất Ngờ — Luyện giao tiếp cùng AI, tự tin sau mỗi lượt nói</title>
+  <meta name="description" content="Siêu Bất Ngờ là nền tảng mô phỏng hội thoại bằng AI giúp bạn vượt qua nỗi lo giao tiếp. Kiến trúc hai tác nhân trên nền Claude: nhập vai thích ứng và đánh giá chẩn đoán, phản hồi tức thì để thử lại ngay." />
+  <meta name="theme-color" content="#6d5efc" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="canonical" href="https://sieubatngo.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Siêu Bất Ngờ — Luyện giao tiếp cùng AI" />
+  <meta property="og:description" content="Nền tảng mô phỏng hội thoại bằng AI trên nền Claude. Nhập vai thích ứng + đánh giá chẩn đoán, phản hồi tức thì để thử lại ngay." />
+  <meta property="og:url" content="https://sieubatngo.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Siêu Bất Ngờ">
+        <img class="logo" src="assets/img/favicon.svg" alt="" width="34" height="34" />
+        <span>Siêu Bất Ngờ</span>
+      </a>
+      <nav aria-label="Chính">
+        <ul class="nav-links">
+          <li><a href="#van-de" data-lang-vi>Vấn đề</a><a href="#van-de" data-lang-en>Problem</a></li>
+          <li><a href="#giai-phap" data-lang-vi>Giải pháp</a><a href="#giai-phap" data-lang-en>Solution</a></li>
+          <li><a href="#cach-hoat-dong" data-lang-vi>Cách hoạt động</a><a href="#cach-hoat-dong" data-lang-en>How it works</a></li>
+          <li><a href="#claude" data-lang-vi>Vì sao Claude</a><a href="#claude" data-lang-en>Why Claude</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <button class="icon-btn lang-toggle" id="langToggle" aria-label="Chuyển ngôn ngữ / Switch language">
+          <span data-lang-vi>EN</span><span data-lang-en>VI</span>
+        </button>
+        <button class="icon-btn" id="themeToggle" aria-label="Chế độ sáng/tối">
+          <span aria-hidden="true">☾</span>
+        </button>
+        <a class="btn btn-primary" href="#bat-dau">
+          <span data-lang-vi>Dùng thử</span><span data-lang-en>Get started</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="badge"><span class="dot"></span>
+            <span data-lang-vi>Trên nền Claude · Kiến trúc hai tác nhân AI</span>
+            <span data-lang-en>Powered by Claude · Two-agent AI architecture</span>
+          </span>
+          <h1>
+            <span data-lang-vi>Hết sợ nói. <span class="gradient-text">Luyện tới khi tự tin.</span></span>
+            <span data-lang-en>Beat the fear of speaking. <span class="gradient-text">Practice until you're confident.</span></span>
+          </h1>
+          <p class="lede">
+            <span data-lang-vi>Siêu Bất Ngờ là sân tập hội thoại bằng AI. Bạn nhập vai các tình huống thật — tiếng Anh, phỏng vấn, xử lý xung đột — và nhận phản hồi chi tiết ngay sau mỗi lượt nói để thử lại tốt hơn.</span>
+            <span data-lang-en>Siêu Bất Ngờ is an AI simulation gym for conversation. You role-play real situations — English, interviews, workplace conflict — and get detailed feedback after every turn so you can retry, better.</span>
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="#bat-dau">
+              <span data-lang-vi>Bắt đầu luyện tập</span><span data-lang-en>Start practising</span>
+            </a>
+            <a class="btn btn-ghost btn-lg" href="#giai-phap">
+              <span data-lang-vi>Xem cách hoạt động</span><span data-lang-en>See how it works</span>
+            </a>
+          </div>
+          <div class="hero-trust">
+            <div><b data-lang-vi>3 bối cảnh</b><b data-lang-en>3 scenarios</b><br><span data-lang-vi>Tiếng Anh · Phỏng vấn · Xung đột</span><span data-lang-en>English · Interview · Conflict</span></div>
+            <div><b>&lt; 1s</b><br><span data-lang-vi>Phản hồi gần tức thì</span><span data-lang-en>Near-instant feedback</span></div>
+            <div><b data-lang-vi>Riêng tư</b><b data-lang-en>Private</b><br><span data-lang-vi>Tập một mình, không ngại</span><span data-lang-en>Practice alone, judgment-free</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="card chat-card" aria-hidden="true">
+            <div class="chat-head">
+              <span class="av">R</span>
+              <div>
+                <strong data-lang-vi>Người phỏng vấn (AI)</strong><strong data-lang-en>Interviewer (AI)</strong>
+                <small data-lang-vi>Tác nhân Nhập vai Thích ứng</small><small data-lang-en>Adaptive Role-Play Agent</small>
+              </div>
+            </div>
+            <div class="bubble them" data-lang-vi>Hãy kể về một lần bạn phải thuyết phục cả nhóm đổi hướng đi.</div>
+            <div class="bubble them" data-lang-en>Tell me about a time you had to persuade a team to change direction.</div>
+            <div class="bubble me" data-lang-vi>Ừm… em nghĩ là dự án đó bọn em làm sai, nên em bảo mọi người đổi.</div>
+            <div class="bubble me" data-lang-en>Um… I think that project was wrong, so I told everyone to change.</div>
+            <div class="bubble them" data-lang-vi>Tốt. Giờ thử nêu rõ bạn đã dùng dữ liệu gì để thuyết phục họ.</div>
+            <div class="bubble them" data-lang-en>Good. Now try naming the data you used to persuade them.</div>
+          </div>
+          <div class="card eval-card" aria-hidden="true">
+            <div class="eval-title">
+              <span class="tag">JSON</span>
+              <span data-lang-vi>Bộ Đánh giá Chẩn đoán</span><span data-lang-en>Diagnostic Evaluator</span>
+            </div>
+<pre class="json"><span class="k">"tone"</span>: <span class="s">"hesitant"</span>,
+<span class="k">"grammar"</span>: <span class="s">"ok"</span>,
+<span class="k">"persuasion"</span>: <span class="n">0.42</span>,
+<span class="k">"fix"</span>: <span class="s">"Dùng số liệu cụ thể"</span></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROBLEM ===================== -->
+    <section id="van-de" class="bg-soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow" data-lang-vi>Vấn đề</div><div class="eyebrow" data-lang-en>The problem</div>
+          <h2 data-lang-vi>Bạn biết phải nói gì — nhưng khoảnh khắc nói lại khiến bạn chùn bước</h2>
+          <h2 data-lang-en>You know what to say — but the moment of speaking makes you freeze</h2>
+          <p data-lang-vi>Luyện giao tiếp cần một người kiên nhẫn đóng vai, phản hồi trung thực và cho bạn thử lại vô số lần. Con người thì bận, lớp học thì đông, còn nỗi sợ bị đánh giá thì luôn ở đó.</p>
+          <p data-lang-en>Getting better at communication needs someone patient to role-play, give honest feedback, and let you retry endlessly. People are busy, classes are crowded, and the fear of being judged never leaves.</p>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><div class="num gradient-text">75%</div><p data-lang-vi>người học ngại nói vì sợ mắc lỗi trước mặt người khác</p><p data-lang-en>of learners avoid speaking for fear of making mistakes in front of others</p></div>
+          <div class="stat reveal"><div class="num gradient-text">1:1</div><p data-lang-vi>kèm riêng là hiệu quả nhất — nhưng đắt đỏ và khó đặt lịch</p><p data-lang-en>coaching works best — but it's costly and hard to schedule</p></div>
+          <div class="stat reveal"><div class="num gradient-text">0</div><p data-lang-vi>lần thử lại trong một buổi nói thật, khi cơ hội đã trôi qua</p><p data-lang-en>retries in a real conversation, once the moment has passed</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOLUTION / TWO AGENTS ===================== -->
+    <section id="giai-phap">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow" data-lang-vi>Giải pháp</div><div class="eyebrow" data-lang-en>The solution</div>
+          <h2 data-lang-vi>Hai tác nhân AI, một vòng lặp luyện tập</h2>
+          <h2 data-lang-en>Two AI agents, one practice loop</h2>
+          <p data-lang-vi>Siêu Bất Ngờ dựng kiến trúc hai tác nhân trên nền Claude: một tác nhân đóng vai sống động, một tác nhân chấm chữa chính xác. Bạn luyện trong môi trường an toàn và tiến bộ thấy rõ sau mỗi lượt.</p>
+          <p data-lang-en>Siêu Bất Ngờ runs a two-agent architecture on Claude: one agent plays a vivid role, the other grades precisely. You practise in a safe space and improve visibly, turn by turn.</p>
+        </div>
+        <div class="agents">
+          <div class="agent-card reveal">
+            <div class="ic" aria-hidden="true">🎭</div>
+            <h3 data-lang-vi>Tác nhân Nhập vai Thích ứng</h3><h3 data-lang-en>Adaptive Role-Play Agent</h3>
+            <p data-lang-vi>Giữ một nhân vật nhất quán, nhớ ngữ cảnh và điều chỉnh độ khó theo trình độ của bạn — như đang nói với một người thật.</p>
+            <p data-lang-en>Holds a consistent persona, remembers context, and tunes difficulty to your level — like talking to a real person.</p>
+            <ul>
+              <li><span data-lang-vi>Nhân vật động theo tình huống: giám khảo, đồng nghiệp, khách hàng</span><span data-lang-en>Dynamic personas: examiner, colleague, customer</span></li>
+              <li><span data-lang-vi>Nhớ mạch hội thoại để phản ứng hợp lý</span><span data-lang-en>Remembers the thread to react believably</span></li>
+              <li><span data-lang-vi>Tự nâng/giảm độ khó theo từng lượt</span><span data-lang-en>Raises or eases difficulty each turn</span></li>
+            </ul>
+          </div>
+          <div class="agent-card reveal">
+            <div class="ic" aria-hidden="true">🩺</div>
+            <h3 data-lang-vi>Bộ Đánh giá Chẩn đoán</h3><h3 data-lang-en>Diagnostic Evaluator</h3>
+            <p data-lang-vi>Phân tích từng lượt nói và trả về JSON nghiêm ngặt: chỉ đúng lỗi về giọng điệu, ngữ pháp và sức thuyết phục, kèm cách sửa cụ thể.</p>
+            <p data-lang-en>Parses each turn and returns strict JSON: pinpoints flaws in tone, grammar and persuasion, with a concrete fix.</p>
+            <ul>
+              <li><span data-lang-vi>Đầu ra JSON nghiêm ngặt, dễ hiển thị và theo dõi</span><span data-lang-en>Strict JSON output, easy to render and track</span></li>
+              <li><span data-lang-vi>Chấm 3 trục: giọng điệu · ngữ pháp · thuyết phục</span><span data-lang-en>Scores 3 axes: tone · grammar · persuasion</span></li>
+              <li><span data-lang-vi>Gợi ý sửa ngay để bạn thử lại lượt đó</span><span data-lang-en>Instant fix so you can retry that turn</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURES / SCENARIOS ===================== -->
+    <section class="bg-soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow" data-lang-vi>Bối cảnh luyện tập</div><div class="eyebrow" data-lang-en>Practice scenarios</div>
+          <h2 data-lang-vi>Tập đúng tình huống khiến bạn lo nhất</h2>
+          <h2 data-lang-en>Practise the exact situations that scare you most</h2>
+        </div>
+        <div class="features">
+          <div class="feature reveal"><div class="ic" aria-hidden="true">🗣️</div><h3 data-lang-vi>Giao tiếp tiếng Anh</h3><h3 data-lang-en>English conversation</h3><p data-lang-vi>Nói trôi chảy trong đời thường và công việc, được sửa phát âm ý tứ và ngữ pháp theo ngữ cảnh.</p><p data-lang-en>Speak fluently for daily life and work, with context-aware fixes for phrasing and grammar.</p></div>
+          <div class="feature reveal"><div class="ic" aria-hidden="true">💼</div><h3 data-lang-vi>Phỏng vấn xin việc</h3><h3 data-lang-en>Job interviews</h3><p data-lang-vi>Luyện trả lời câu hỏi khó, kể chuyện có cấu trúc và giữ bình tĩnh trước áp lực.</p><p data-lang-en>Rehearse tough questions, structured storytelling, and staying calm under pressure.</p></div>
+          <div class="feature reveal"><div class="ic" aria-hidden="true">🤝</div><h3 data-lang-vi>Xung đột nơi làm việc</h3><h3 data-lang-en>Workplace conflict</h3><p data-lang-vi>Tập đưa phản hồi khó nghe, thương lượng và giữ quan hệ mà vẫn đạt mục tiêu.</p><p data-lang-en>Practise hard feedback, negotiation, and keeping the relationship while hitting your goal.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HOW IT WORKS ===================== -->
+    <section id="cach-hoat-dong">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow" data-lang-vi>Cách hoạt động</div><div class="eyebrow" data-lang-en>How it works</div>
+          <h2 data-lang-vi>Vòng lặp: Nói → Chẩn đoán → Thử lại</h2>
+          <h2 data-lang-en>The loop: Speak → Diagnose → Retry</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><div class="n"></div><h3 data-lang-vi>Chọn bối cảnh</h3><h3 data-lang-en>Pick a scenario</h3><p data-lang-vi>Chọn tình huống và mức độ khó bạn muốn luyện.</p><p data-lang-en>Choose the situation and difficulty you want to train.</p></div>
+          <div class="step reveal"><div class="n"></div><h3 data-lang-vi>Nhập vai hội thoại</h3><h3 data-lang-en>Role-play</h3><p data-lang-vi>Trò chuyện tự nhiên với tác nhân AI đóng vai sống động.</p><p data-lang-en>Have a natural conversation with a vivid AI persona.</p></div>
+          <div class="step reveal"><div class="n"></div><h3 data-lang-vi>Nhận chẩn đoán</h3><h3 data-lang-en>Get a diagnosis</h3><p data-lang-vi>Thấy ngay điểm mạnh, lỗi và cách sửa cho từng lượt.</p><p data-lang-en>Instantly see strengths, flaws and fixes for each turn.</p></div>
+          <div class="step reveal"><div class="n"></div><h3 data-lang-vi>Thử lại tốt hơn</h3><h3 data-lang-en>Retry, better</h3><p data-lang-vi>Lặp lại ngay để biến phản hồi thành thói quen tự tin.</p><p data-lang-en>Retry on the spot to turn feedback into confident habit.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY CLAUDE ===================== -->
+    <section id="claude" class="bg-soft">
+      <div class="container claude-wrap">
+        <div class="reveal">
+          <div class="eyebrow" data-lang-vi>Vì sao chọn Claude</div><div class="eyebrow" data-lang-en>Why Claude</div>
+          <h2 data-lang-vi>Claude là bộ não của cả hai tác nhân</h2>
+          <h2 data-lang-en>Claude is the brain behind both agents</h2>
+          <p data-lang-vi>Chúng tôi chọn Claude vì khả năng giữ nhân vật nhất quán qua nhiều lượt, bám sát ngữ cảnh dài và tuân thủ định dạng JSON nghiêm ngặt — đúng ba thứ mà một sân tập hội thoại cần nhất.</p>
+          <p data-lang-en>We chose Claude for consistent personas across many turns, strong long-context tracking, and reliable strict-JSON output — exactly the three things a conversation gym needs most.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#bat-dau"><span data-lang-vi>Đồng hành cùng chúng tôi</span><span data-lang-en>Partner with us</span></a>
+          </div>
+        </div>
+        <div class="claude-card reveal">
+          <h3 style="margin-bottom:18px" data-lang-vi>Điều chúng tôi đang xây & cần hỗ trợ</h3>
+          <h3 style="margin-bottom:18px" data-lang-en>What we're building & need help with</h3>
+          <ul class="ask-list">
+            <li><span class="ic" aria-hidden="true">⚡</span><div><h4 data-lang-vi>Hạ tầng cho phiên nhập vai tần suất cao</h4><h4 data-lang-en>Infra for high-frequency role-play</h4><p data-lang-vi>Tín dụng API để kiểm thử tải các phiên nhập vai liên tục, nhiều người dùng cùng lúc.</p><p data-lang-en>API credits to stress-test high-frequency role-play sessions at scale.</p></div></li>
+            <li><span class="ic" aria-hidden="true">🌊</span><div><h4 data-lang-vi>Tối ưu độ trễ streaming</h4><h4 data-lang-en>Streaming latency optimisation</h4><p data-lang-vi>Hướng dẫn kỹ thuật để phản hồi hội thoại mượt, gần tức thì.</p><p data-lang-en>Technical guidance for smooth, near-instant conversational responses.</p></div></li>
+            <li><span class="ic" aria-hidden="true">🎯</span><div><h4 data-lang-vi>Đánh giá prompt tự động</h4><h4 data-lang-en>Automated prompt evaluation</h4><p data-lang-vi>Thực hành tốt nhất để đo lường và chuẩn hóa độ chính xác sư phạm của phản hồi.</p><p data-lang-en>Best practices to benchmark and standardise the pedagogical accuracy of feedback.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA / EARLY ACCESS ===================== -->
+    <section id="bat-dau" class="cta-band">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <h2 data-lang-vi>Sẵn sàng nói mà không còn sợ?</h2>
+          <h2 data-lang-en>Ready to speak without the fear?</h2>
+          <p data-lang-vi>Để lại email để nhận quyền dùng sớm Siêu Bất Ngờ. Chúng tôi sẽ liên hệ ngay khi mở bản thử nghiệm.</p>
+          <p data-lang-en>Leave your email for early access to Siêu Bất Ngờ. We'll reach out the moment the beta opens.</p>
+          <div class="hero-cta" style="justify-content:center">
+            <a class="btn btn-primary btn-lg" href="mailto:hello@sieubatngo.com?subject=Dang%20ky%20dung%20som%20Sieu%20Bat%20Ngo">
+              <span data-lang-vi>Đăng ký dùng sớm</span><span data-lang-en>Request early access</span>
+            </a>
+            <a class="btn btn-ghost btn-lg" href="#giai-phap">
+              <span data-lang-vi>Tìm hiểu thêm</span><span data-lang-en>Learn more</span>
+            </a>
+          </div>
+          <p class="cta-note" data-lang-vi>Hoặc email trực tiếp: hello@sieubatngo.com</p>
+          <p class="cta-note" data-lang-en>Or email us directly: hello@sieubatngo.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="about">
+          <a class="brand" href="#top"><img class="logo" src="assets/img/favicon.svg" alt="" width="34" height="34" /><span>Siêu Bất Ngờ</span></a>
+          <p style="margin-top:14px" data-lang-vi>Sân tập hội thoại bằng AI giúp bạn vượt nỗi lo giao tiếp — luyện tập, nhận phản hồi, tự tin lên mỗi ngày.</p>
+          <p style="margin-top:14px" data-lang-en>An AI conversation gym to beat communication anxiety — practise, get feedback, grow confident every day.</p>
+        </div>
+        <div class="footer-col">
+          <h5 data-lang-vi>Sản phẩm</h5><h5 data-lang-en>Product</h5>
+          <ul>
+            <li><a href="#van-de" data-lang-vi>Vấn đề</a><a href="#van-de" data-lang-en>Problem</a></li>
+            <li><a href="#giai-phap" data-lang-vi>Giải pháp</a><a href="#giai-phap" data-lang-en>Solution</a></li>
+            <li><a href="#cach-hoat-dong" data-lang-vi>Cách hoạt động</a><a href="#cach-hoat-dong" data-lang-en>How it works</a></li>
+            <li><a href="#claude" data-lang-vi>Vì sao Claude</a><a href="#claude" data-lang-en>Why Claude</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 data-lang-vi>Liên hệ</h5><h5 data-lang-en>Contact</h5>
+          <ul>
+            <li><a href="mailto:hello@sieubatngo.com">hello@sieubatngo.com</a></li>
+            <li><a href="#bat-dau" data-lang-vi>Đăng ký dùng sớm</a><a href="#bat-dau" data-lang-en>Early access</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Siêu Bất Ngờ</span>
+        <span data-lang-vi>Xây dựng trên nền Claude của Anthropic.</span>
+        <span data-lang-en>Built on Claude by Anthropic.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

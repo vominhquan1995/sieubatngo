@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    # Đổi CPANEL_USER thành username cPanel của bạn (xem góc trên bên phải cPanel)
+    - export DEPLOYPATH=/home/CPANEL_USER/public_html/
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
